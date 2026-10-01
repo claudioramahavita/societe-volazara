@@ -1,0 +1,33 @@
+# OS / IDE
+Thumbs.db
+.DS_Store
+desktop.ini
+.idea/
+.vscode/
+*.swp
+.claude/
+
+# CodeIgniter 3 - logs & cache (keep index.html)
+application/logs/*
+!application/logs/index.html
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+# Credentials / local config
+application/config/database.php
+.env
+
+# Uploaded user files
+uploads/*
+!uploads/.gitkeep
+
+# Dependencies
+vendor/
+composer.lock
+
+# Backups / dumps
+*.sql
+*.bak
+*.log
+*.mwb.bak
